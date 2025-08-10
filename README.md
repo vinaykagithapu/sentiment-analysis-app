@@ -49,9 +49,6 @@ export HUGGING_FACE_HUB_TOKEN=<huggingface_token>
 # Start the Backend
 uvicorn backend.main:app --reload --port 8000
 
-# Start Frontend
+# Start Frontend App
 streamlit run frontend/app.py
-
-# Run app
-streamlit run app.py
 ```
