@@ -4,17 +4,17 @@ An AI-powered sentiment analysis tool with a simple web interface that classifie
 ---
 
 ## 📌 Table of Contents
-- [Overview](#overview)
-- [Demo](#demo)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](#-overview)
+- [Demo](#-demo)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Setup & Installation](#-setup--installation)
+- [Usage](#-usage)
+- [Results](#-results)
+- [Future Improvements](#-future-improvements)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
@@ -24,7 +24,7 @@ This project is a web application that performs real-time sentiment analysis on 
 ---
 
 ## 🎥 Demo
-![Demo Screenshot](assets/demo.png)
+![Demo Screenshot](assets/image.png)
 
 ---
 
