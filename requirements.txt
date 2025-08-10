@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+transformers
+torch
+datasets
+pandas
+openpyxl
+streamlit
+requests
+altair
+python-multipart
