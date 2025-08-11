@@ -106,6 +106,10 @@ I absolutely love this product! It exceeded my expectations.
 This is the worst experience I’ve ever had.
 The package arrived yesterday.
 The movie started off boring but ended with an amazing twist.
+The company’s quarterly earnings exceeded analyst expectations, sending the stock price up 8%.
+Shares plunged after the CEO announced a significant drop in projected revenue for the next quarter.
+The bank released its annual financial report this morning, outlining changes in its loan portfolio.
+Revenue increased in North America but sharp losses in European markets offset most of the gains.
 ```
 
 ---

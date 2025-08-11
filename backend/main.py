@@ -7,7 +7,7 @@ from transformers import pipeline
 model_names = {
     "distilbert": "distilbert-base-uncased-finetuned-sst-2-english",
     "bertweet": "finiteautomata/bertweet-base-sentiment-analysis",
-    "deberta": "microsoft/deberta-v3-small"
+    "finbert": "ProsusAI/finbert"
 }
 
 models = {name: pipeline("sentiment-analysis", model=path) for name, path in model_names.items()}
