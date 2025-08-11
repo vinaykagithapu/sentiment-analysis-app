@@ -24,7 +24,7 @@ This project is a web application that performs real-time sentiment analysis on 
 ---
 
 ## 🎥 Demo
-![Demo Video](assets/demo.mov)
+![Demo Video](assets/demo.gif)
 
 ---
 
