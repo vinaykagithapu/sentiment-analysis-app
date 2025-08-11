@@ -97,6 +97,9 @@ curl -X POST "http://localhost:8000/predict" \
 ```
 3. Start frontend server and visit UI at http://localhost:8501/
 ```shell
+# Open new terminal and activate virtual environment
+source .venv/bin/activate
+
 # Start Frontend App
 streamlit run frontend/app.py
 ```
@@ -134,6 +137,3 @@ The application provides:
 Pull requests are welcome! Please fork the repo and submit a PR for review.
 
 ---
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
