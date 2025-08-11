@@ -84,9 +84,16 @@ uvicorn backend.main:app --reload --port 8000
 ```
 2. Example API Request:
 ```bash
+# List the models
+curl -X GET http://localhost:8000/models
+
+# Infer
 curl -X POST "http://localhost:8000/predict" \
-     -H "Content-Type: application/json" \
-     -d '{"text": "I love this product!", "dataset": "imdb"}'
+    -H "Content-Type: application/json" \
+    -d '{
+          "text": "I love this product!",
+          "models": ["distilbert", "bertweet"]
+     }'
 ```
 3. Start frontend server and visit UI at http://localhost:8501/
 ```shell

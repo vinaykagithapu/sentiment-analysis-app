@@ -9,3 +9,5 @@ streamlit
 requests
 altair
 python-multipart
+tiktoken
+sentencepiece
