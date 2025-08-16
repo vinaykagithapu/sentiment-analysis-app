@@ -64,14 +64,16 @@ git clone https://github.com/vinaykagithapu/sentiment-analysis-app.git
 cd sentiment-analysis-app
 
 # Create virtual environment
-python -m venv .venv
-source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+python -m venv .venv-be
+python -m venv .venv-fe
+source .venv-be/bin/activate  # On Windows use: .venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 
 # Configure HF Token
 export HUGGING_FACE_HUB_TOKEN=<your_huggingface_token>
+export HF_HOME=~/.cache/huggingface
 ```
 
 ---
@@ -98,7 +100,10 @@ curl -X POST "http://localhost:8000/predict" \
 3. Start frontend server and visit UI at http://localhost:8501/
 ```shell
 # Open new terminal and activate virtual environment
-source .venv/bin/activate
+source .venv-fe/bin/activate
+
+# Install required dependencies
+pip install -r frontend/requirements.txt
 
 # Start Frontend App
 streamlit run frontend/app.py
