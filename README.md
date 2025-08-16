@@ -135,6 +135,7 @@ The application provides:
 - Expand supported languages beyond English
 - Deploy to cloud platform for public access
 - Add batch processing capability
+- Add health check capability for k8s deployments
 
 ---
 
