@@ -1,8 +1,9 @@
 import streamlit as st
 import requests
 import pandas as pd
+import os
 
-API_URL = "http://localhost:8000/predict"
+API_URL = os.getenv("BACKEND_API_URL", "http://localhost:8000/predict")
 
 st.set_page_config(page_title="Multi-Model Sentiment Analysis", layout="wide")
 st.title("🧠 Multi-Model Sentiment Analysis")
