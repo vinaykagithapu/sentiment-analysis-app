@@ -10,6 +10,9 @@ kind create cluster --name poc --image kindest/node:v1.31.4
 kubectl get nodes
 ```
 
+# Deployment Architecture
+![alt text](../../assets/k8s-app-arch.png)
+
 ## Build Docker Images & Load
 1. Build the [backend docker image](../../backend/)
 2. Build the [frontend docker image](../../frontend/)
